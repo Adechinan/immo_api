@@ -1,0 +1,11 @@
+{
+    "name": "Bien",
+    "alias": "bien",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Bien\\Providers\\BienServiceProvider"
+    ],
+    "files": []
+}

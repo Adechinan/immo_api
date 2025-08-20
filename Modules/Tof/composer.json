@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/tof",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Tof\\": "app/",
+            "Modules\\Tof\\Database\\Factories\\": "database/factories/",
+            "Modules\\Tof\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Tof\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "Bien": true,
+    "Post": true,
+    "Blog": true,
+    "User": true,
+    "BienEnLocation": true,
+    "BienEnVente": true,
+    "Auth": true,
+    "Tof": true
+}

@@ -1,0 +1,11 @@
+{
+    "name": "BienEnLocation",
+    "alias": "bienenlocation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BienEnLocation\\Providers\\BienEnLocationServiceProvider"
+    ],
+    "files": []
+}

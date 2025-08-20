@@ -1,0 +1,11 @@
+{
+    "name": "Tof",
+    "alias": "tof",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Tof\\Providers\\TofServiceProvider"
+    ],
+    "files": []
+}
