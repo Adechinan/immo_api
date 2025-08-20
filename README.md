@@ -14,7 +14,9 @@ Bienvenue sur **immo_api**, l’API dédiée à la gestion des biens immobiliers
 
 - [Laravel][(https://laravel.com/docs/12.x/installation)/)](le framework php utilisé pour cette api)
 - [xampp][(https://www.postgresql.org/](https://www.apachefriends.org/download.html))](un server local pour lancer MySQL et apache)
-- [insomnia ][((https://insomnia.rest/download))](pour tester l'api
+- [insomnia ][((https://insomnia.rest/download))](pour tester l'api)
+- [composer][(https://getcomposer.org/download/)] (le gestionnaire de dépendances php)
+- [laravel-modules][(https://laravelmodules.com/docs/12/getting-started/introduction)](une dépendance laravel pour adopter une architecture modulaire sur laravel)
 
 ## Installation
 
@@ -24,17 +26,12 @@ Bienvenue sur **immo_api**, l’API dédiée à la gestion des biens immobiliers
    cd immo_api
    ```
 
-2. **Installez les dépendances :**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Configurez la base de données :**
+2. **Configurez la base de données :**
    - Modifiez le fichier `.env` pour indiquer vos paramètres de connexion (voir `.env.example`).
 
 4. **Lancez le serveur :**
    ```bash
-   uvicorn main:app --reload
+   php artisan serve
    ```
 
 ## Utilisation
